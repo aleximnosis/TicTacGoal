@@ -2,18 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MATRIX TIC TAC TOE</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<style>
-
-</style>
-
-
 <body>
-    
+
+<canvas id="matrix"></canvas>
+
+<div class="game">
+    <h1>MATRIX-TAC-TOE</h1>
+
+    <div class="board">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+    </div>
+</div>
+
+<div class="winner-overlay" id="winnerOverlay">
+  <div class="winner-box">
+    <h1 id="winnerText">SYSTEM OVERRIDE</h1>
+
+    <button id="restartBtn">
+      REINICIAR SIMULACIÓN
+    </button>
+  </div>
+
+</div>
+
 </body>
 
+<script src="script.js"></script>
 
 </html>
